@@ -1,2 +1,0 @@
-./chaincode/chaincode_example02.go:37:1: exported method SimpleChaincode.Init should have comment or be unexported
-./chaincode/chaincode_example02.go:75:1: exported method SimpleChaincode.Invoke should have comment or be unexported
