@@ -3,7 +3,7 @@
 This repo helps for checking your chaincode syntax,functionalities defined in your chaincode,invoke and query's written in golang
 Developers who try to build their Blockchain Application,have to write/execute/check their chaincode's.
 So, no need to setup their network and to check their chaincode logic.
-<br/> #This is build with reference of chaincodedev mode with SingleSampleMSPSolo orderer and peer runs in dev mode.
+<br/> This is build with reference of chaincodedev mode with SingleSampleMSPSolo orderer and peer runs in dev mode.
 
 <br/>1)Provides the syntax check of your chaincode written in golang,if any errors it shows in logs.
 <br/>2)Retrives functionalities defined in your chaincode.
