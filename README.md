@@ -13,7 +13,7 @@ So, no need to setup their network and to check their chaincode logic.
 **Step to execute**
 
 
-Keep your chaincode to validate in chaincode folder
+Keep your **chaincode** to validate in chaincode folder
  <br/> 1)./Stop.sh--> stops your running containers and downs the network
  <br/>2)./Remove.sh --> removes the binaries of ur chaincode.
   <br/>3)./Start_test.sh --> Gives the basic syntax check, retrives the functionality , pushes if any error into log folder
