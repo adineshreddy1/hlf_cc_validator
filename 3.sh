@@ -1,6 +1,6 @@
 
 
-xterm -e docker exec -it cli bash 
+ docker exec -it cli bash 
 
 
 peer chaincode install -p chaincodedev/chaincode -n mycc -v 0
