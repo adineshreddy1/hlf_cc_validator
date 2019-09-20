@@ -1,9 +1,9 @@
 #!/bin/bash
 
 NOW=$(date +"%d.%m.%Y")
-FILE=./logs/fmt_$NOW.log
-FILELint=./logs/lint_$NOW.log
-FILEFun=./logs/func_name_$NOW.log
+FILE=./logs/CCfmt_$NOW.log
+FILELint=./logs/CCsynatxlint_$NOW.log
+FILEFun=./logs/functionnameCC_$NOW.log
 set -e
 
 if [ ! -d "logs" ]
