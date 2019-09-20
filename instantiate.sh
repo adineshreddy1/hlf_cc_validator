@@ -4,6 +4,6 @@ docker exec \
   cli \
   peer chaincode instantiate \
     -C myc \
-    -n chaincodetest \
+    -n mycc \
     -v 0 \
     -c '{"Args":[]}'

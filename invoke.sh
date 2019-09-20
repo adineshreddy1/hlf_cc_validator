@@ -4,5 +4,5 @@ docker exec \
   cli \
   peer chaincode invoke \
     -C myc \
-    -n chaincodetest \
+    -n mycc\
     -c '{"function":"initLedger","Args":[]}' \

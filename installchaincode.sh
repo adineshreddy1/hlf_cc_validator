@@ -2,6 +2,6 @@
 docker exec \
   cli \
   peer chaincode install \
-    -n chaincodetest \
+    -n mycc \
     -v 0 \
     -p chaincodedev/chaincode 

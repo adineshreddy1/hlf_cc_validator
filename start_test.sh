@@ -23,6 +23,6 @@ echo "Done with  validating chaincode check in logs folder "
 echo "Printing function names in golang file "
 grep ^func  ./chaincode/*.go >> "$FILEFun"
 echo "Check for func names in logs folder"
-
+echo "Building object for chaincode"
 cd chaincode
 go build -o chaincode
