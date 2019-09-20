@@ -18,8 +18,8 @@ Keep your **chaincode** to validate in chaincode folder
  <br/>2)./Remove.sh --> removes the binaries of ur chaincode.
   <br/>3)./Start_test.sh --> Gives the basic syntax check, retrives the functionality , pushes if any error into log folder
  <br/> 4)./1.sh --> Brings your network (in Terminal 1)
- <br/> 5)./2.sh  --> start of ur chaincode container
+ <br/> 5)./2.sh  --> start of ur chaincode container(in Terminal 2)
  <br/>      run  ./build.sh  --> start of ur chaincode container
-  <br/>6)./installchaincode.sh --> install chaincode
+  <br/>6)./installchaincode.sh --> install chaincode(in Terminal 3)
  <br/> 7)./instantiate.sh --> instantiates chaincode
   <br/>8)For invoke and query you can modify based on your arguments 
