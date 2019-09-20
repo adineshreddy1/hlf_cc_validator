@@ -6,4 +6,4 @@ docker exec \
     -C myc \
     -n mycc \
     -v 0 \
-    -c '{"Args":[]}'
+    -c '{"Args":["init","a","100","b","200"]}'

@@ -5,4 +5,4 @@ docker exec \
   peer chaincode invoke \
     -C myc \
     -n mycc\
-    -c '{"function":"initLedger","Args":[]}' \
+    -c '{"Args":["invoke","a","b","10"]}' 
