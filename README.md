@@ -7,8 +7,9 @@ This is build with reference of chaincodedev mode with SingleSampleMSPSolo order
       1)Provides the syntax check of your chaincode written in golang,if any errors it shows in logs.
       2)Retrives functionalities defined in your chaincode.
       3)Can install/instantiate/query of your chaincode.
+**Step to execute**
 
-Step to execute
+
 Keep your chaincode to validate in chaincode folder
   1)./Stop.sh--> stops your running containers and downs the network
   2)./Remove.sh --> removes the binaries of ur chaincode.
